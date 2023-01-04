@@ -17,10 +17,10 @@ jobs:
     #     github_token: ${{ secrets.GHA_TOKEN }}
     #     workflow_file_name: receiver.yaml
 
-      - name: Checkout reciever repo
-        uses: actions/checkout@v2
-        with:
-          repository: Liz2310/receiver
+      # - name: Checkout reciever repo
+      #   uses: actions/checkout@v2
+      #   with:
+      #     repository: Liz2310/receiver
 
     - name: trigger-workflow
       run: |
