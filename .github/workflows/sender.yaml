@@ -15,7 +15,7 @@ jobs:
         owner: Liz2310
         repo: receiver
         github_token: ${{ secrets.GHA_TOKEN }}
-        workflow_file_name: receiver.yml
+        workflow_file_name: receiver.yaml
 
 
     # - name: trigger-workflow
